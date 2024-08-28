@@ -608,6 +608,7 @@ function Footer() {
                   <NavLink to="/country?code=Australia" target="_blank">
                     <img
                       src={swiss}
+                      style={{borderRadius:'50%'}}
                       className="img-imo zoom-thumbnail  w-60 Flag"
                       // style={{ marginTop: "-50px" }}
                       alt="ImageMaker"

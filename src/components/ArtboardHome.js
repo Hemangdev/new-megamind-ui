@@ -13,6 +13,7 @@ import Flag3 from "../images/flag/flag3.png";
 import Flag4 from "../images/flag/flag4.png";
 import Flag5 from "../images/flag/flag5.png";
 import Flag6 from "../images/flag/flag6.png";
+import swiss from '../images/swiss-flag.png';
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { NavLink } from "react-router-dom";
@@ -253,6 +254,22 @@ function ArtboardHome() {
                   </NavLink>
                 </div>
                 <h2 className="country-name">Australia</h2>
+              </div>
+              <div className="img-cont">
+                <div class="img-wim">
+                  <NavLink to="/country?code=Australia" target="_blank">
+                    <img
+                      src={swiss}
+                      className="img-imo zoom-thumbnail  w-60 Flag"
+                      style={{borderRadius:'50%'}}
+                      // style={{ marginTop: "-50px" }}
+                      alt="ImageMaker"
+                      title="Australia"
+                    />
+
+                  </NavLink>
+                </div>
+                <h2 className="country-name">Switzerland</h2>
               </div>
 
             </div>
