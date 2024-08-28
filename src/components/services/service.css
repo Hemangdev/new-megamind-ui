@@ -1,0 +1,31 @@
+.service-bg{
+    background-image: url('../../images/services/dd.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 22px;
+    padding: 22px 10px;
+    margin: 10px 0px;
+    position: relative;
+    .timicon{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        background: #036ab7;
+        padding: 29px;
+        width: 108px;
+        border-radius: 36px 19px 32px 60px;
+    }
+    .linkclass{
+        text-decoration: none;
+    }
+}    

@@ -1,0 +1,173 @@
+.para{
+    font-size: 16px;
+}
+.megamind{
+    color:#39b449;
+}
+.mega-m{
+    color:#0f75c1;
+}
+
+.aboutbox {
+    border-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px 25px;
+    text-align: left;
+    display: block;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 22px;
+}
+.aboutbox-icon span {
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.aboutbox-icon {
+    text-align: right;
+}
+.about-bg{
+    background-color: #e8f5ff;
+}
+
+
+
+.social-box .box {
+    background: #f6fafd;
+    border-radius: 10px; 
+    cursor: pointer;
+    margin: 20px 0;
+    padding: 30px 20px;
+    border: 1px solid #0077c7;
+    transition: all 0.5s ease-out;
+}
+
+.social-box .box:hover {
+   box-shadow: 0 0 6px #4183D7;
+}
+
+.social-box .box-text {
+    font-size: 15px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.social-box .box-btn a {
+    color: #4183D7;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.social-box .fa {
+    color: #4183D7;
+}
+.box-text span{
+    line-height: 1px;
+}
+
+
+.card-counter{
+    box-shadow: 2px 2px 10px #DADADA;
+    margin: 5px;
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: .3s linear all;
+    text-align: center;
+  }
+
+  .card-counter:hover{
+    box-shadow: 4px 4px 20px #DADADA;
+    transition: .3s linear all;
+  }
+
+  .card-counter.primary{
+    color: #FFF;
+  }
+
+  .card-counter.danger{
+    background-color: #ef5350;
+    color: #FFF;
+  }  
+
+  .border-about {
+    background: #c1c1c1;
+    height: 2px;
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.border-about2 {
+  background: #c1c1c1;
+  height: 2px;
+  width:265px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+.img-count{
+  transform: translate(-147px, 0px);
+}
+  .card-counter.success{
+    background-color: #66bb6a;
+    color: #FFF;
+  }  
+
+  .card-counter.info{
+    background-color: #26c6da;
+    color: #FFF;
+  }  
+.aboutbg{
+  background-image: url("../../images/aboutus/bgimage.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+}
+
+  .primery-counter{
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 52px;
+  }
+
+
+  @media (max-width: 992px) { 
+    .para {
+        padding: 0px !important;
+}
+.img-count {
+  transform: translate(0px, 0px) !important;
+}
+.aboutbg {
+  background-size: cover !important;
+}
+.card-counter{
+  margin: 0px !important; 
+}
+.ps-5{
+    padding: 0px !important; 
+}
+.country-mob{
+  margin-top: 0px !important; 
+}
+  }
+  .react-tabs__tab--selected {
+    background: #2769b2 !important; 
+    outline: none !important; 
+    border: 0px !important;
+}
+.slider-aboutus{
+  img.mb-2 {
+    height: 300px;
+    object-fit: cover;
+}
+.padding-lef{
+  padding-left:3px;
+  padding-right:3px;
+}
+}

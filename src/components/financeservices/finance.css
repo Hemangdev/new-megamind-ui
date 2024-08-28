@@ -1,0 +1,458 @@
+.height {
+  height: 120px;
+}
+.px-6 {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.d-grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 10px;
+  .card {
+    background: #036ab7;
+  }
+}
+
+.sub-container {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  height: max-content;
+}
+
+.view,
+.breakup {
+  width: 100%;
+}
+.details input {
+  width: 100%;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*----- Styling the sliders ----*/
+input[type="range"] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  background: #036ab7;
+  border-radius: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  height: 50px;
+  width: 100px;
+  margin-top: -22px;
+  -webkit-appearance: none;
+  background-image: url("../../images/finance/plan.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: auto;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  background: #b3b3b3;
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+  background: #9088d2;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+  border-radius: 10px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  box-shadow: 2px 2px 5px #b3b3b3, -1px -1px 3px grey;
+  border: 5px solid #ffffff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #9088d2;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+input[type="range"]::-ms-track {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+  background: #9088d2;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+  border-radius: 10px;
+}
+
+input[type="range"]::-ms-fill-lower {
+  background: #9088d2;
+  border-radius: 5px;
+}
+
+input[type="range"]::-ms-fill-upper {
+  background: #9088d2;
+  border-radius: 5px;
+}
+
+input[type="range"]::-ms-thumb {
+  box-shadow: 2px 2px 5px #b3b3b3, -1px -1px 3px grey;
+  border: 5px solid #ffffff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #9088d2;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+input[type="range"]:focus::-ms-fill-lower {
+  background: #9088d2;
+}
+
+input[type="range"]:focus::-ms-fill-upper {
+  background: #9088d2;
+}
+
+/*-------------------------------------*/
+#price {
+  color: #130f31;
+  font-size: 25px;
+}
+
+.loan-details {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+#price-container {
+  color: #9088d2;
+  margin-top: 50px;
+}
+
+#price-container::before {
+  content: "Monthly Payable:";
+  font-size: 12px;
+  display: block;
+}
+.box-layou {
+  background: #036ab7;
+  width: 100%;
+  border-radius: 6px;
+  .title {
+    color: white;
+  }
+  .text {
+    color: white;
+  }
+}
+.custom-border2:after {
+  content: " ";
+  position: absolute;
+  border-top: 1px solid white;
+  left: 0;
+  width: 23%;
+  top: 36px;
+}
+
+.custom-border2 {
+  position: relative;
+}
+
+.makecarsoule {
+  margin: 50px auto;
+}
+.carousel .carousel-item {
+  color: #999;
+  overflow: hidden;
+  min-height: 120px;
+  font-size: 13px;
+}
+.carousel .media {
+  position: relative;
+  padding: 0 0 0 0px;
+  margin-left: 0px;
+}
+.med{
+  align-items: center !important;
+}
+.card-boxer p{
+  padding-bottom: 10px;
+}
+.carousel .media img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+}
+.carousel .testi {
+  background: #036ab7;
+  padding: 15px;
+  border-radius:6px;
+  .testimonial p {
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    border-bottom: 1px solid white;
+  }
+}
+
+.carousel .testimonial::after {
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+}
+.carousel .carousel-item .row > div:first-child .testimonial {
+  margin: 0 0px 0px 0;
+}
+.carousel .carousel-item .row > div:first-child .media {
+  margin-left: 0;
+}
+.carousel .testimonial p {
+  line-height: 21px;
+  margin: 0;
+}
+
+.carousel .overview {
+  padding: 3px 0 0 15px;
+}
+.carousel .overview .details {
+  padding: 5px 0 8px;
+}
+.carousel .overview b {
+  text-transform: uppercase;
+  color: #fff;
+}
+.carousel .overview .details{
+  color:white;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 8%;
+  height: 60px;
+  top: 116%;
+}
+.carousel-control-prev i,
+.carousel-control-next i {
+  font-size: 16px;
+}
+.carousel-control-prev {
+  left: auto;
+  right: 35%;
+  opacity: 1;
+}
+.carousel-control-next {
+  right: 50%;
+  opacity: 1;
+}
+.carousel-indicators {
+  bottom: -80px;
+}
+.carousel-indicators li,
+.carousel-indicators li.active {
+  width: 17px;
+  height: 17px;
+  border-radius: 0;
+  margin: 1px 5px;
+  box-sizing: border-box;
+}
+.carousel-indicators li {
+  background: #e2e2e2;
+  border: 4px solid #fff;
+}
+.carousel-indicators li.active {
+  color: #fff;
+  background: #ff5555;
+  border: 5px double;
+}
+.star-rating li {
+  padding: 0 2px;
+}
+.star-rating i {
+  font-size: 14px;
+  color: #ffdc12;
+}
+.carousel .react-multiple-carousel__arrow
+{
+bottom: 0px;
+}
+
+.carousel .react-multiple-carousel__arrow--left {
+  left: calc(45% + 1px);
+}
+.carousel .react-multiple-carousel__arrow--right {
+  right: calc(45% + 1px);
+}
+.carousel .react-multi-carousel-track{
+padding-bottom: 50px;
+}
+.accoudin .accordion-button{
+  font-size: 22px;
+   font-weight: 600;
+   background: none;
+   padding: 10px 10px;
+}
+.accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #026cb8;
+}
+.accordion-button:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.accoudin .accordion-item{
+  border: none;
+  background: #f3f3f3;
+}
+.accoudin .accordion-body {
+  background: white;
+}
+.form-bg{
+  background-color:#d7ebf6;
+}
+.aacurdin-bg{
+  background-color:#f3f3f3;
+}
+
+.form-view {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  appearance: none;
+  background-color: #d7ebf6;
+  background-clip: padding-box;
+  border: 0;
+  border-bottom: 1px solid #2769b1;
+  margin-bottom: 10px;
+  padding: 5px;
+
+}
+.cotrosls, .PhoneInputInput {
+  color: black !important;
+}
+.form-view:focus-visible{
+  border:none !important;
+}
+.form-view::placeholder{
+  color:#2769b1;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.form-view {
+  color:#2769b1;
+  font-weight: 700;
+  font-size: 16px;
+}
+ .form-view .PhoneInputInput::placeholder{
+  color:#2769b1;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* // Mobile Device Only */
+
+@media (max-width: 992px) { 
+  .carousel .react-multiple-carousel__arrow--right {
+    right: calc(35% + 1px);
+}
+.carousel .react-multiple-carousel__arrow--left {
+  left: calc(35% + 1px); 
+}
+}
+.bomad{
+  background: #0169b8;
+  text-align: justify;
+  padding: 20px;
+  color: white;
+.testi .testimonial p{
+font-size: 16px;
+
+}
+}
+
+
+.testimonial-slider {
+  background-color: #5072a7;
+  padding: 2em 2em 3em;
+}
+.testimonial-title {
+  color: #fff;
+}
+.testimonial-title h2 {
+  padding-left: 0.2em;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  height: 100%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #fff;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 576px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 50%;
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 1;
+    position: absolute;
+    left: 1em;
+    top: 90%;
+    transform: translateY(-50%);
+  }
+  .carousel-control-next {
+    left: 5em;
+  }
+}

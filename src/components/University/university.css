@@ -1,0 +1,173 @@
+.university-sec {
+  background: #e9f6ff;
+  padding: 4rem;
+  border-radius: 42px;
+}
+.margin-rightside {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.list-no {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-no li {
+  margin-bottom: 20px;
+}
+.univers-inner {
+  background: #fff;
+  padding: 0rem;
+  border-radius: 42px;
+}
+
+.university-bg {
+  background-image: url("../../images/university/firstabout.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.maxHeight_2{
+  overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+}
+.react-responsive-modal-modal {
+  max-width: 33% !important;
+}
+.subcours {
+  min-height: 295px;
+  padding: 24px 24px 16px;
+  border: 1px solid #f5f6f8;
+  box-sizing: border-box;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.04), 0 4px 8px rgba(0, 0, 0, 0.02);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  width: 100%;
+}
+
+.subcours .subcourses-pro {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.subcours .subcourses_line__UCMCv {
+  border: 1px solid #e0e4e9;
+  margin: 16px 0 12px;
+}
+
+.subcours .subcourses_h-title__zuIFF {
+  color: #002147;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.subcours .subcourses-pro span {
+  flex: 1 1;
+}
+
+.subcours .subcourses_details__6Pow6 {
+  float: left;
+}
+
+.Subcourses-Desc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 0;
+  color: #000000;
+}
+
+.subcoursesc-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  color: #8594a7;
+}
+
+.subcour-bottom {
+    border: 1px solid #e0e4e9;
+    margin: 16px 0 12px;
+}
+
+.Subcourses-Bottom{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #8594a7;
+}
+
+.subcourses-button {
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    background: #0487f3;
+    font-size: 14px;
+    line-height: 20px;
+    border: 0;
+    font-weight: 400;
+    border-radius: 0 0 12px 12px;
+}
+.Lorem{
+    position: relative;
+
+.LoremIpsum{
+    padding: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        text-align: center;
+        position: absolute;
+        background: white;
+        width: 90%;
+        left: 0;
+        right: 0;
+        margin: -27px auto;
+}
+
+}
+
+.subcours .subcourses-pro img {
+    width: 60px;
+}
+
+.subcours .subcourses-pro {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.gal {
+	
+	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 6;
+	  
+	
+	}	
+	.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+		
+		.gal {
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+
+}
+		

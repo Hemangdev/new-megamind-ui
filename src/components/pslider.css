@@ -1,0 +1,50 @@
+
+  
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .mote img{
+    max-width: 200px;
+    max-height: 200px;
+    cursor: pointer;
+    border-radius:22px !important; 
+    margin-bottom: calc(2 * var(--float-threshold));
+  }
+  .carousel-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .carousel-item {
+    margin: 0 5px;
+    transition: transform 0.3s;
+    flex: 0 0 20%;
+
+  }
+  
+  .center {
+    transform: scale(1.5);
+    margin: 3.2rem;
+    transition: all .2s ease-in-out;
+    opacity: none;
+  }
+  
+  .opacity {
+    opacity: 0.9;
+  }
+  
+  .end {
+    transform: scale(0.6);
+    margin: -32px;
+    
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 5px 10px;
+    margin: 10px;
+  }
+  

@@ -1,0 +1,59 @@
+.textcet {
+  padding: 5px;
+}
+.card_card-title___2VQ1 {
+  text-align: left;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #002147;
+}
+.card_body__sf7JO {
+  background: white !important;
+  border: 1px solid #f5f6f8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+.card_mobile-card {
+  visibility: hidden;
+}
+.card_body__sf7JO:hover .card_mobile-card {
+  visibility: visible;
+}
+
+.card_details__thp1e {
+  text-align: left;
+  margin: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.card_body__sf7JO:hover {
+  border-bottom: 1px solid #0487f3;
+  cursor: pointer;
+}
+.partner_partner {
+  background: #f2f2ff !important;
+  padding-bottom: 66px;
+}
+
+.btnmoret:hover{
+  background: #0565ac;
+  color: white;
+  border: 1px solid  #0565ac;
+}
+.btnmoret{
+    border: 1px solid  #0565ac;
+    color:#0565ac;
+}
+.d-mega{
+  display: flex;
+  align-items: center;
+
+}
+.d-mega img{
+  width:80px;
+}
