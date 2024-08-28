@@ -81,8 +81,8 @@ function Services() {
               </div>
               <div className="title">
                 <h3 className="fw-bold">
-                Fee Payment  <br />  
-                &  <br /> Finance Planning
+                Fee Payment &   <br />  
+                  Finance Planning
                 </h3>
               </div>
               <div className="text pb-4">
@@ -141,7 +141,7 @@ function Services() {
               </div>
               <div className="title">
                 <h3 className="fw-bold py-3">
-                Post Visa <br />
+                Post Visa 
                 Service
                 </h3>
               </div>
