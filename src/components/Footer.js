@@ -451,7 +451,7 @@ function Footer() {
                         <option>Germany</option>
                         <option>Australia</option>
                         <option>U.K.</option>
-                        <option>New Zealand</option>
+                        <option>Switzerland</option>
                         <option>Ireland</option>
                       </select>
                     </div>
