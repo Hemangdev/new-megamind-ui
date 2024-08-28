@@ -47,7 +47,8 @@ function Services() {
               </div>
               <div className="text pb-4">
                 <span>
-                  Our counsellors provide detailed guidance on the process of getting admitted to renowned universities or college.
+                Get ready to ace your IELTS exam with our expert test preparation services. Our personalized coaching and practice materials are designed to help you reach your full potential and gain confidence in your test-taking abilities.
+
                 </span>
               </div>
               
@@ -66,7 +67,8 @@ function Services() {
               </div>
               <div className="text pb-4">
                 <span>
-                  Get step-by-step guidance for study abroad programs applications processe, visa rules and choice of college.
+                Choosing the right university is crucial. We’ll assist you in selecting institutions that align with your academic and personal goals. Our team will guide you through every step of the application process, ensuring you present a standout application that showcases your strengths.
+
                 </span>
               </div>
               
@@ -85,7 +87,8 @@ function Services() {
               </div>
               <div className="text pb-4">
                 <span>
-                  Thinking of studying abroad but don't know what course to select? Find out how to choose the perfect program for you.
+                Managing tuition fees and planning your finances can be daunting. We offer tailored support to help you understand fee structures, explore financial aid options, and create a solid financial plan to cover your educational expenses without stress.
+
                 </span>
               </div>
                
@@ -104,7 +107,8 @@ function Services() {
               </div>
               <div className="text pb-4">
                 <span>
-                Megamind helps Students can acquire scholarships from renowned universities as per their academic performances.
+                Navigating visa requirements can be complex. Our experienced visa consultants handle all aspects of the application process, ensuring your paperwork is complete and accurate. We provide expert advice to help you secure the necessary visa for your studies abroad.
+
                 </span>
               </div>
               
@@ -122,7 +126,8 @@ function Services() {
               </div>
               <div className="text pb-4">
                 <span>
-                Understanding visa requirements: Familiarize yourself with the visa requirements of the country you plan to study in.
+                Finding the perfect place to live is essential for a successful study experience. We help you locate and secure accommodation that suits your preferences and budget, whether it’s university housing or private rental options.
+
                 </span>
               </div>
              
@@ -142,7 +147,7 @@ function Services() {
               </div>
               <div className="text pb-4">
                 <span>
-                Prepare for your study overseas journey with our helpful pre-departure briefings. Trust us to support you all the way.
+                Once your visa is approved, we’re here to support you as you transition to your new location. From orientation services to connecting you with local resources, we ensure you’re well-prepared and settled for a smooth start to your academic journey.
                 </span>
               </div>
               

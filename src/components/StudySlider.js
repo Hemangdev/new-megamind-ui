@@ -134,7 +134,7 @@ const StudySlider = () => {
                     src={StudyImage4}
                     title="Study in New Zealand"
                   />
-                  <h5 className="Box-Title">Study in New Zealand</h5>
+                  <h5 className="Box-Title">Study in Switzerland</h5>
                 </NavLink>
               </div>
 

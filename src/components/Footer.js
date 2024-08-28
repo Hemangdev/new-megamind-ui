@@ -247,7 +247,7 @@ function Footer() {
                 </li>
                 <li>
                   <NavLink className="list-style" target="_blank" to="/country?code=New Zealand" exact>
-                    {" Study in New-Zealand "}
+                    {" Study in Switzerland "}
                   </NavLink>
                 </li>
                 <li>

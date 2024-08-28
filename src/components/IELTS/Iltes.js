@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
@@ -36,6 +36,14 @@ import ClientView from "../ClientView";
 
 function Ielts() {
   const [value, setValue] = useState();
+  const targetRef = useRef(null);
+
+
+  const scrollToComponent = () => {
+    if (targetRef.current) {
+      targetRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <>
@@ -88,12 +96,13 @@ function Ielts() {
           <Col sm={12} md={1} className="py-5 maincol">
             {" "}
           </Col>
-          <Col sm={12} md={4} className="py-5 col bo-img">
+          <Col ref={targetRef} sm={12} md={4} className="py-5 col bo-img">
             <div className="ielts-boxx mx-3" id="metsa">
               <h3 className="text-center fw-bold text-white custom-bordder2 py-2">
                 {" FREE COUNSELLING"}
               </h3>
               <Form
+              
                 className="py-3"
                 onSubmit="return confirm('Do you want to submit?') "
                 method="Get"
@@ -511,7 +520,7 @@ function Ielts() {
             </div>
           </Col>
           <Col sm={12} md={12} className=" text-center pt-4 pb-2">
-            <Button variant="primary"> Enroll Now </Button>
+            <Button onClick={scrollToComponent} variant="primary"> Enroll Now </Button>
           </Col>
         </Row>
       </Container>
@@ -668,7 +677,7 @@ function Ielts() {
             </div>
           </Col>
           <Col sm={12} md={12} className=" text-center pt-4">
-            <Button variant="primary"> Book a Free Demo </Button>
+            <Button onClick={scrollToComponent} variant="primary"> Book a Free Demo </Button>
           </Col>
         </Row>
       </Container>
