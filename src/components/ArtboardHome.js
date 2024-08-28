@@ -50,6 +50,8 @@ function ArtboardHome() {
   const [userEmail, setUserEmail] = useState("")
   const [userNumber, setUserNumber] = useState("")
   const [loader, setLoader] = useState(false)
+  console.log('Hello testing megamind');
+  
 
 
 
