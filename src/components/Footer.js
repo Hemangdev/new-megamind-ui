@@ -26,7 +26,8 @@ import Flag2 from "../images/flag/flag2.png";
 import Flag3 from "../images/flag/flag3.png";
 import Flag4 from "../images/flag/flag4.png";
 import Flag5 from "../images/flag/flag5.png";
-import Flag6 from "../images/flag/flag6.png";
+import Flag6 from "../images/flag/flag6.png"; 
+import swiss from '../images/swiss-flag.png';
 
 
 
@@ -586,6 +587,36 @@ function Footer() {
                   </NavLink>
                 </div>
                 <h2 className="country-name"> Study in Australia</h2>
+              </div>
+              <div className="img-cont">
+                <div class="img-wim">
+                  <NavLink to="/country?code=Australia" target="_blank">
+                    <img
+                      src={Flag6}
+                      className="img-imo zoom-thumbnail  w-60 Flag"
+                      // style={{ marginTop: "-50px" }}
+                      alt="ImageMaker"
+                      title="Australia"
+                    />
+
+                  </NavLink>
+                </div>
+                <h2 className="country-name"> Study in Ireland</h2>
+              </div>
+              <div className="img-cont">
+                <div class="img-wim">
+                  <NavLink to="/country?code=Australia" target="_blank">
+                    <img
+                      src={swiss}
+                      className="img-imo zoom-thumbnail  w-60 Flag"
+                      // style={{ marginTop: "-50px" }}
+                      alt="ImageMaker"
+                      title="Australia"
+                    />
+
+                  </NavLink>
+                </div>
+                <h2 className="country-name"> Study in Switzerland</h2>
               </div>
 
             </div>
