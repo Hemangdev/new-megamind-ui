@@ -1,13 +1,13 @@
 import * as React from 'react';
 import "./pslider.css";
-import Limage1 from "../images/wiretr.png";
-import Limage2 from "../images/accorm.png";
-import Limage3 from "../images/electronaic.png";
-import Limage4 from "../images/internations.png";
-import Limage5 from "../images/save.png";
-import Limage6 from "../images/save2.png";
-import Limage7 from "../images/save3.png";
-import Limage8 from "../images/save4.png";
+import Limage1 from "../images/newSlider/Artboard 1.png";
+import Limage2 from "../images/newSlider/Artboard 2.png";
+import Limage3 from "../images/newSlider/Artboard 3.png";
+import Limage4 from "../images/newSlider/Artboard 4.png";
+import Limage5 from "../images/newSlider/Artboard 5.png";
+import Limage6 from "../images/newSlider/Artboard 6.png";
+import Limage7 from "../images/newSlider/Artboard 7.png";
+import Limage8 from "../images/newSlider/Artboard 8.png";
 
 const { useEffect, useState } = React;
 

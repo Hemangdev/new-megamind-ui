@@ -20,6 +20,8 @@ import Application0 from "../../images/country/icon/applicaton.png";
 import Application1 from "../../images/country/icon/applicaton1.png";
 import Application2 from "../../images/country/icon/applicaton2.png";
 import Application3 from "../../images/country/icon/applicaton3.png";
+
+
 import CountryA1 from "../../images/country/icon/a1.png";
 import CountryA2 from "../../images/country/icon/a2.png";
 import CountryA3 from "../../images/country/icon/a3.png";
@@ -100,7 +102,7 @@ class Country extends React.Component {
       "https://megamindonline.com/admin/webmanager/controller.php?command=GET_COUNTRY_DATA&country=" +
       code;
     console.log("geturl=" + geturl);
-    //get request
+    //get request+
     axios.get(geturl).then((res) => {
       this.setState({ data: res.data });
       //console.log("this.state.data="+this.state.data);
