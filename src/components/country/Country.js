@@ -1028,8 +1028,8 @@ class Country extends React.Component {
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
-
-                    <Accordion.Item eventKey="1">
+                    {/* Commented as per discussed with megamind discussed */}
+                    {/* <Accordion.Item eventKey="1">
                       <Accordion.Header>Services</Accordion.Header>
                       <Accordion.Body>
                         <Row
@@ -1110,7 +1110,7 @@ class Country extends React.Component {
                           </Col>
                         </Row>
                       </Accordion.Body>
-                    </Accordion.Item>
+                    </Accordion.Item> */}
 
                     <Accordion.Item eventKey="2">
                       <Accordion.Header>
