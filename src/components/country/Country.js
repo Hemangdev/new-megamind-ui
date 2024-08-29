@@ -136,17 +136,18 @@ class Country extends React.Component {
                     >
                       <button
                         type="submit"
-                        class="px-4 py-2 mr-3 btn btn-primary"
-                        style={{ fontSize: "13px" }}
+                        class="px-4 py-2 country-mobile mr-3 btn btn-primary"
+                         
                       >
                         {"Get Your Shortlist for free"}
                       </button>
                     </Link>
-                    <Link href="tel:+918882255001">
+                    <Link to="tel:+918882255001">
                       <button
                         type="submit"
                         class="px-4 py-2 btn country-mobile btn-primary"
-                        style={{ fontSize: "14px" }}
+                        
+                         
                       >
                         {"Talk to an expert "}
                       </button>

@@ -453,6 +453,7 @@ function Footer() {
                         <option>U.K.</option>
                         <option>Switzerland</option>
                         <option>Ireland</option>
+                        <option>USA</option>
                       </select>
                     </div>
                     {/* <div class="form-group">
