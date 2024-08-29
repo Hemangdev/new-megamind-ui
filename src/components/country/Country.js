@@ -366,9 +366,9 @@ class Country extends React.Component {
                         {"University List "}
                       </Tab>
                       {/* Removed as per suggested by megamind team */}
-                      {/* <Tab style={{ background: "#3689be", border: "none" }}>
-                        {"Services"}
-                      </Tab> */}
+
+                       
+                      
                       <Tab style={{ background: "#64b2c5", border: "none" }}>
                         {"Application & Visa Checklist "}
                       </Tab>
@@ -434,93 +434,7 @@ class Country extends React.Component {
                     {/* service TAB START HERE */
                     /* service TAB START HERE */}
 
-                    <TabPanel className=" pt-4">
-                      <Tabs>
-                        <TabPanel className="pt-0">
-                          <Row
-                            className=""
-                            style={{ width: "100%", margin: "auto" }}
-                          >
-                            <Col sm={4} md={4} className="padding-b-5">
-                              <div className="Countrty-Icon">
-                                <img
-                                  className="w-0"
-                                  src={CountryA1}
-                                  alt="Flag"
-                                />
-                                <p className="fw-bold">
-                                  {"Counselling"}
-                                  <br />
-                                  {"Regarding Countries,"}
-                                  <br />
-                                  {"Colleges, Courses"}
-                                </p>
-                              </div>
-                            </Col>
-                            <Col sm={4} md={4} className="padding-b-5">
-                              <div className="Countrty-Icon">
-                                <img className="" src={CountryA2} alt="Flag" />
-                                <p className="fw-bold">
-                                  {"Your Exam"}
-                                  <br />
-                                  {"Preparation"}
-                                  <br />
-                                  {"(IELTS/PTE)"}
-                                </p>
-                              </div>
-                            </Col>
-
-                            <Col sm={4} md={4} className="padding-b-5">
-                              <div className="Countrty-Icon">
-                                <img className="" src={CountryA3} alt="Flag" />
-                                <p className="fw-bold">
-                                  {"Submiting"}
-                                  <br />
-                                  {"Complete Application"}
-                                  <br />
-                                  {"to Colleges"}
-                                </p>
-                              </div>
-                            </Col>
-
-                            <Col sm={4} md={4} className="padding-b-5">
-                              <div className="Countrty-Icon">
-                                <img className="" src={CountryA4} alt="Flag" />
-                                <p className="fw-bold">
-                                  {"Free Payment"}
-                                  <br />
-                                  {"& Education loans"}
-                                </p>
-                              </div>
-                            </Col>
-
-                            <Col sm={4} md={4} className="padding-b-5">
-                              <div className="Countrty-Icon">
-                                <img className="" src={CountryA5} alt="Flag" />
-                                <p className="fw-bold">
-                                  {"Preparing LOR's"}
-                                  <br />
-                                  {"SOP's & Colleges"}
-                                  <br />
-                                  {"Essays"}
-                                </p>
-                              </div>
-                            </Col>
-
-                            <Col sm={4} md={4} className="padding-b-5">
-                              <div className="Countrty-Icon">
-                                <img className="" src={CountryA6} alt="Flag" />
-                                <p className="fw-bold">
-                                  {"Receiving"}
-                                  <br />
-                                  {"offer letters"}
-                                </p>
-                              </div>
-                            </Col>
-                          </Row>
-                        </TabPanel>
-                      </Tabs>
-                    </TabPanel>
+                     
 
                     {/* Application & Visa Checklist TAB START HERE */
                     /* Application & Visa Checklist TAB START HERE */}
