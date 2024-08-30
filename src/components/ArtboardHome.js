@@ -274,13 +274,13 @@ function ArtboardHome() {
 
             </div>
             {/* Removed as per discussed with Megamind Team */}
-            {/* <button
+            <button
               type="submit"
               onClick={openModal}
               class="mt-button btn btn-primary w-60 dwn-btn"
             >
               Download Brochure
-            </button> */}
+            </button>
 
 
           </Col>
