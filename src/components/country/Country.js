@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom";
 
 import Button from "react-bootstrap/Button";
@@ -44,7 +45,7 @@ import $ from "jquery";
 
 function refreshPage(event) {
   //alert("refreshPage called.."+$(event.target).attr("href"));	
-  window.location.href=$(event.target).attr("href");
+  window.location.href = $(event.target).attr("href");
 }
 
 
@@ -139,7 +140,7 @@ class Country extends React.Component {
                       <button
                         type="submit"
                         class="px-4 py-2 country-mobile mr-3 btn btn-primary"
-                         
+
                       >
                         {"Get Your Shortlist for free"}
                       </button>
@@ -148,8 +149,8 @@ class Country extends React.Component {
                       <button
                         type="submit"
                         class="px-4 py-2 btn country-mobile btn-primary"
-                        
-                         
+
+
                       >
                         {"Talk to an expert "}
                       </button>
@@ -179,9 +180,9 @@ class Country extends React.Component {
 
         {this.state.data.map((result) => {
           return (
-           
+
             <Container className="padding-5" fluid>
-               {console.log(result)}
+              {console.log(result)}
               <Row className="" style={{ width: "85%", margin: "auto" }}>
                 <Col sm={12} md={12} className="pb-4">
                   <h2 className="display-6">Facts</h2>
@@ -193,7 +194,7 @@ class Country extends React.Component {
                       className="w-0"
                       src={result?.fast_fact_img_url_1}
                       alt="Flag"
-                    /> 
+                    />
                     <p className="fw-bold">{result.fast_fact_title_1}</p>
                   </div>
                 </Col>
@@ -369,8 +370,8 @@ class Country extends React.Component {
                       </Tab>
                       {/* Removed as per suggested by megamind team */}
 
-                       
-                      
+
+
                       <Tab style={{ background: "#64b2c5", border: "none" }}>
                         {"Application & Visa Checklist "}
                       </Tab>
@@ -394,40 +395,40 @@ class Country extends React.Component {
                           <div className="d-grid innergr">
 
 
-                          <ul className="ul-text toplist">
-                            { result.all_universities_1.split(";").filter(r => r !== '').map((named) => 
-			                      (
-                              <li>
-                               <Link reloadDocument={true}  className="nav-link"  to={"/university?country_name="+result.country+"&university_name="+named} onClick={refreshPage}>
-                                {named.split(";")[0]}
-                                </Link>
-                              </li>
+                            <ul className="ul-text toplist">
+                              {result.all_universities_1.split(";").filter(r => r !== '').map((named) =>
+                              (
+                                <li>
+                                  <Link reloadDocument={true} className="nav-link" to={"/university?country_name=" + result.country + "&university_name=" + named} onClick={refreshPage}>
+                                    {named.split(";")[0]}
+                                  </Link>
+                                </li>
                               ))}
 
                             </ul>
                             <ul className="ul-text toplist">
-                            { result.all_universities_2.split(";").filter(r => r !== '').map((named) => 
-			                      (
-                              <li>
-                                <Link reloadDocument={true}  className="nav-link"  to={"/university?country_name="+result.country+"&university_name="+named} onClick={refreshPage}> 
-                                {named.split(";")[0]}
-                                </Link>
-                              </li>
+                              {result.all_universities_2.split(";").filter(r => r !== '').map((named) =>
+                              (
+                                <li>
+                                  <Link reloadDocument={true} className="nav-link" to={"/university?country_name=" + result.country + "&university_name=" + named} onClick={refreshPage}>
+                                    {named.split(";")[0]}
+                                  </Link>
+                                </li>
                               ))}
 
                             </ul>
                             <ul className="ul-text toplist">
-                            { result.all_universities_3.split(";").filter(r => r !== '').map((named) => 
-			                      (
-                              <li>
-                               <Link reloadDocument={true}  className="nav-link"  to={"/university?country_name="+result.country+"&university_name="+named} onClick={refreshPage}>
-                                {named.split(";")[0]}
-                                </Link>
-                              </li>
+                              {result.all_universities_3.split(";").filter(r => r !== '').map((named) =>
+                              (
+                                <li>
+                                  <Link reloadDocument={true} className="nav-link" to={"/university?country_name=" + result.country + "&university_name=" + named} onClick={refreshPage}>
+                                    {named.split(";")[0]}
+                                  </Link>
+                                </li>
                               ))}
 
                             </ul>
-                            
+
                           </div>
                         </TabPanel>
                       </Tabs>
@@ -436,7 +437,7 @@ class Country extends React.Component {
                     {/* service TAB START HERE */
                     /* service TAB START HERE */}
 
-                     
+
 
                     {/* Application & Visa Checklist TAB START HERE */
                     /* Application & Visa Checklist TAB START HERE */}
@@ -533,106 +534,20 @@ class Country extends React.Component {
 
                     {/* Testimonial TAB START HERE */
                     /* Testimonial TAB START HERE */}
-
+                    {/* Dynamic testimonial Data */}
                     <TabPanel className="pt-4">
                       <div className="d-grid innergrid3 px-4">
-                        <div class="wrimagecard wrimagecard-topimage">
-                          <div class="wrimagecard-topimage_header p-0">
-                            <center>
-                              <img
-                                src={TeamImage}
-                                alt="Application"
-                                width={"100%"}
-                              />
-                            </center>
-                          </div>
-                        </div>
-
-                        <div class="wrimagecard wrimagecard-topimage">
-                          <div class="wrimagecard-topimage_header p-0">
-                            <center>
-                              <img
-                                src={TeamImage1}
-                                alt="Application"
-                                width={"100%"}
-                              />
-                            </center>
-                          </div>
-                        </div>
-
-                        <div class="wrimagecard wrimagecard-topimage">
-                          <div class="wrimagecard-topimage_header p-0">
-                            <center>
-                              <img
-                                src={TeamImage2}
-                                alt="Application"
-                                width={"100%"}
-                              />
-                            </center>
-                          </div>
-                        </div>
-
-                        <div class="wrimagecard wrimagecard-topimage">
-                          <div class="wrimagecard-topimage_header p-0">
-                            <center>
-                              <img
-                                src={TeamImage3}
-                                alt="Application"
-                                width={"100%"}
-                              />
-                            </center>
-                          </div>
-                        </div>
-
-                        {/* <span id="dots"></span>
-                        <span id="more"> */}
-                        <div class="wrimagecard wrimagecard-topimage">
-                          <div class="wrimagecard-topimage_header p-0">
-                            <center>
-                              <img
-                                src={TeamImage4}
-                                alt="Application"
-                                width={"100%"}
-                              />
-                            </center>
-                          </div>
-                        </div>
-                        <div class="wrimagecard wrimagecard-topimage">
-                          <div class="wrimagecard-topimage_header p-0">
-                            <center>
-                              <img
-                                src={TeamImage5}
-                                alt="Application"
-                                width={"100%"}
-                              />
-                            </center>
-                          </div>
-                        </div>
-
-                        <div class="wrimagecard wrimagecard-topimage">
-                          <div class="wrimagecard-topimage_header p-0">
-                            <center>
-                              <img
-                                src={TeamImage6}
-                                alt="Application"
-                                width={"100%"}
-                              />
-                            </center>
-                          </div>
-                        </div>
-
-                        <div class="wrimagecard wrimagecard-topimage">
-                          <div class="wrimagecard-topimage_header p-0">
-                            <center>
-                              <img
-                                src={TeamImage7}
-                                alt="Application"
-                                width={"100%"}
-                              />
-                            </center>
-                          </div>
-                        </div>
-                        {/* </span> */}
+                        <Card style={{ width: '18rem' }}>
+                          <Card.Body>
+                            <Card.Title>{result.studentName}</Card.Title>
+                            {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                            <Card.Text>
+                             {result.testimonial}
+                            </Card.Text>
+                            {/* <Card.Link href="#">Card Link</Card.Link>
+                            <Card.Link href="#">Another Link</Card.Link> */}
+                          </Card.Body>
+                        </Card>
                       </div>
                       {/* <button onClick={myFunction} id="myBtn">
                         View More

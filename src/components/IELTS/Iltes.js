@@ -209,25 +209,25 @@ function Ielts() {
                         <div className="generic_price_tag clearfix">
                           <h4 className="fw-bold color-price pb-3">
                             {" "}
-                            EXPRESS PROGRAM <br />( GENRERAL )
+                            EXPRESS PROGRAM <br />( ACADEMIC )
                           </h4>
                           <span className="price custom-border5">
-                            <span className="currency">RS 7,990</span>
+                            <span className="currency">RS 15,000 (18% GST)</span>
                           </span>
                         </div>
                       </div>
 
                       <div className="generic_feature_list px-5">
                         <ul>
-                          <li>{"Duration : 16 Sessions"}</li>
+                          <li>{"Duration : 15 Sessions"}</li>
                           <li>{"5 Classes / Week"}</li>
-                          <li>{"15-20 Students per Batch"}</li>
+                          <li>{"5-6 Students per Batch"}</li>
                           <li>{"Excellent Faculty Members"}</li>
                           <li>{"Time Saving Shortcuts & Tricks"}</li>
-                          <li>{"Quality Study Material"}</li>
+                          <li>{"Quality Study Material"}</li> 
                           <li>
                             {
-                              "Rs 3999 per 10 sessions of Grammar ( if required )"
+                              "Weekly Mockup & Doubt Session"
                             }
                           </li>
                         </ul>
@@ -251,10 +251,10 @@ function Ielts() {
                         <div className="generic_price_tag clearfix">
                           <h4 className="fw-bold color-price pb-3">
                             {" "}
-                            EXPRESS PROGRAM <br />( GENRERAL )
+                            EXTRENSIVE PROGRAM <br />( ACADEMIC )
                           </h4>
                           <span className="price custom-border5">
-                            <span className="currency">RS 7,990</span>
+                            <span className="currency">RS 10,000 (18% GST)</span>
                           </span>
                         </div>
                       </div>
@@ -269,7 +269,7 @@ function Ielts() {
                           <li>{"Quality Study Material"}</li>
                           <li>
                             {
-                              "Rs 3999 per 10 sessions of Grammar ( if required )"
+                               "Weekly Mockup & Doubt Session"
                             }
                           </li>
                         </ul>
@@ -292,10 +292,10 @@ function Ielts() {
                         <div className="generic_price_tag clearfix">
                           <h4 className="fw-bold color-price pb-3">
                             {" "}
-                            EXPRESS PROGRAM <br />( GENRERAL )
+                            ULTIMATE PROGRAM <br />( ACADEMIC )
                           </h4>
                           <span className="price custom-border5">
-                            <span className="currency">RS 7,990</span>
+                            <span className="currency">RS 15,000 (18% GST) </span>
                           </span>
                         </div>
                       </div>
@@ -310,7 +310,7 @@ function Ielts() {
                           <li>{"Quality Study Material"}</li>
                           <li>
                             {
-                              "Rs 3999 per 10 sessions of Grammar ( if required )"
+                              "Weekly Mockup & Doubt Session"
                             }
                           </li>
                         </ul>
@@ -330,7 +330,7 @@ function Ielts() {
         </Row>
       </Container>
 
-      <Container className="mobile-b" fluid>
+      {/* <Container className="mobile-b" fluid>
         <Row className="mobile-b" style={{ width: "85%", margin: "auto" }}>
           <Col md={12} sm={12} className="mb-5 pb-5">
             <div className="dispay-New">
@@ -472,7 +472,7 @@ function Ielts() {
             </section>
           </div>
         </Row>
-      </Container>
+      </Container> */}
 
       <Container className="mobile-b" fluid>
         <Row className="mobile-b" style={{ width: "80%", margin: "auto" }}>

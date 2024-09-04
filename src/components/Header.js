@@ -149,7 +149,7 @@ function Header() {
 
         </Routes>
 
-        <Link to="https://megamindonline.co.in" target="_blank">
+        <Link to="/" target="_blank">
 
           <Button className="bookVisitbtn2">
 

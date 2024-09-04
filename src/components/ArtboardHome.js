@@ -257,7 +257,7 @@ function ArtboardHome() {
               </div>
               <div className="img-cont">
                 <div class="img-wim">
-                  <NavLink to="/country?code=Australia" target="_blank">
+                  <NavLink to="/" target="_blank">
                     <img
                       src={swiss}
                       className="img-imo zoom-thumbnail  w-60 Flag"
