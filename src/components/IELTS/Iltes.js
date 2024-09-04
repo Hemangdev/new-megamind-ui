@@ -32,6 +32,11 @@ import EducationImage2 from "../../images/ielts/education-high2.png";
 import EducationImage3 from "../../images/ielts/education-high3.png";
 import EducationImage4 from "../../images/ielts/education-high4.png";
 import ReviewImage from "../../images/ielts/eviews.png";
+
+import newImgage from '../../images/ielts/megamind-1.jpg';
+import newImage2 from '../../images/ielts/megamind-2.jpg'
+import newImage3 from '../../images/ielts/megamind-3.jpg'
+
 import ClientView from "../ClientView";
 
 function Ielts() {
@@ -203,7 +208,7 @@ function Ielts() {
                     <div className="generic_content clearfix">
                       <div className="generic_head_price clearfix">
                         <div className="generic_head_content clearfix">
-                          <img src={PricrIamge} alt="" width={"100%"} />
+                          <img src={newImgage} alt="" width={"100%"} />
                         </div>
 
                         <div className="generic_price_tag clearfix">
@@ -245,7 +250,7 @@ function Ielts() {
                     <div className="generic_content active clearfix">
                       <div className="generic_head_price clearfix">
                         <div className="generic_head_content clearfix">
-                          <img src={PricrIamge2} alt="" width={"100%"} />
+                          <img src={newImage2} alt="" width={"100%"} />
                         </div>
 
                         <div className="generic_price_tag clearfix">
@@ -286,7 +291,7 @@ function Ielts() {
                     <div className="generic_content clearfix">
                       <div className="generic_head_price clearfix">
                         <div className="generic_head_content clearfix">
-                          <img src={PricrIamge3} alt="" width={"100%"} />
+                          <img src={newImage3} alt="" width={"100%"} />
                         </div>
 
                         <div className="generic_price_tag clearfix">
