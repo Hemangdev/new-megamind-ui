@@ -114,6 +114,8 @@ class Country extends React.Component {
     return (
       <>
         {this.state.data.map((result) => {
+          console.log(result);
+          
           return (
             <Container
               className="padding-top-4 bgbackcountrty pb-10"
@@ -190,7 +192,7 @@ class Country extends React.Component {
 
                 <Col sm={4} md={3} className="padding-5">
                   <div className="Countrty-Icon">
-                    <img
+                    <img 
                       className="w-0"
                       src={result?.fast_fact_img_url_1}
                       alt="Flag"
@@ -537,17 +539,84 @@ class Country extends React.Component {
                     {/* Dynamic testimonial Data */}
                     <TabPanel className="pt-4">
                       <div className="d-grid innergrid3 px-4">
-                        <Card style={{ width: '18rem' }}>
-                          <Card.Body>
-                            <Card.Title>{result.studentName}</Card.Title>
+                        <Card style={{ width: '18rem'}}>
+                          <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
+                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/>
+                            <h6>{result.universityName_1}</h6> 
+                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_1}</Card.Title>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
                             <Card.Text>
-                             {result.testimonial}
+                             {result.testimonial_1}
                             </Card.Text>
                             {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
                           </Card.Body>
                         </Card>
+                        <Card style={{ width: '18rem'}}>
+                          <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
+                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/>
+                            <h6>{result.universityName_2}</h6>
+                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_2}</Card.Title>
+                            {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                            <Card.Text>
+                             {result.testimonial_2}
+                            </Card.Text>
+                            {/* <Card.Link href="#">Card Link</Card.Link>
+                            <Card.Link href="#">Another Link</Card.Link> */}
+                          </Card.Body>
+                        </Card>
+                        <Card style={{ width: '18rem'}}>
+                          <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
+                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/>
+                            <h6>{result.universityName_3}</h6>
+                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_3}</Card.Title>
+                            {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                            <Card.Text>
+                             {result.testimonial_3}
+                            </Card.Text>
+                            {/* <Card.Link href="#">Card Link</Card.Link>
+                            <Card.Link href="#">Another Link</Card.Link> */}
+                          </Card.Body>
+                        </Card>
+                        <Card style={{ width: '18rem'}}>
+                          <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
+                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/>
+                            <h6>{result.universityName_4}</h6>
+                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_4}</Card.Title>
+                            {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                            <Card.Text>
+                             {result.testimonial_4}
+                            </Card.Text>
+                            {/* <Card.Link href="#">Card Link</Card.Link>
+                            <Card.Link href="#">Another Link</Card.Link> */}
+                          </Card.Body>
+                        </Card>
+                        <Card style={{ width: '18rem'}}>
+                          <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
+                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/>
+                            <h6>{result.universityName_5}</h6>
+                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_5}</Card.Title>
+                            {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                            <Card.Text>
+                             {result.testimonial_5}
+                            </Card.Text>
+                            {/* <Card.Link href="#">Card Link</Card.Link>
+                            <Card.Link href="#">Another Link</Card.Link> */}
+                          </Card.Body>
+                        </Card>
+                        <Card style={{ width: '18rem'}}>
+                          <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
+                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/>
+                            <h6>{result.universityName_6}</h6>
+                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_6}</Card.Title>
+                            {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                            <Card.Text>
+                             {result.testimonial_6}
+                            </Card.Text>  
+                            {/* <Card.Link href="#">Card Link</Card.Link>
+                            <Card.Link href="#">Another Link</Card.Link> */}
+                          </Card.Body>
+                        </Card> 
                       </div>
                       {/* <button onClick={myFunction} id="myBtn">
                         View More
@@ -712,6 +781,8 @@ class Country extends React.Component {
         {/* MOBILE DESIGN LAYOUTE CODE HERE */}
 
         {this.state.data.map((result) => {
+          
+          
           return (
             <Container
               className="py-5 DesktopDisplay"
