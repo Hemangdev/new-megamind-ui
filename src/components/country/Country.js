@@ -541,9 +541,9 @@ class Country extends React.Component {
                       <div className="d-grid innergrid3 px-4">
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/>
-                            <h6>{result.universityName_1}</h6> 
+                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
                             <Card.Title style={{fontSize:'17px'}}>{result.studentName_1}</Card.Title>
+                            <h6>{result.universityName_1}</h6> 
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
                             <Card.Text>
                              {result.testimonial_1}
@@ -554,9 +554,9 @@ class Country extends React.Component {
                         </Card>
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/>
-                            <h6>{result.universityName_2}</h6>
+                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
                             <Card.Title style={{fontSize:'17px'}}>{result.studentName_2}</Card.Title>
+                            <h6>{result.universityName_2}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
                             <Card.Text>
                              {result.testimonial_2}
@@ -567,9 +567,9 @@ class Country extends React.Component {
                         </Card>
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/>
-                            <h6>{result.universityName_3}</h6>
+                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
                             <Card.Title style={{fontSize:'17px'}}>{result.studentName_3}</Card.Title>
+                            <h6>{result.universityName_3}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
                             <Card.Text>
                              {result.testimonial_3}
@@ -580,9 +580,9 @@ class Country extends React.Component {
                         </Card>
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/>
-                            <h6>{result.universityName_4}</h6>
+                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
                             <Card.Title style={{fontSize:'17px'}}>{result.studentName_4}</Card.Title>
+                            <h6>{result.universityName_4}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
                             <Card.Text>
                              {result.testimonial_4}
@@ -593,9 +593,9 @@ class Country extends React.Component {
                         </Card>
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/>
-                            <h6>{result.universityName_5}</h6>
+                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
                             <Card.Title style={{fontSize:'17px'}}>{result.studentName_5}</Card.Title>
+                            <h6>{result.universityName_5}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
                             <Card.Text>
                              {result.testimonial_5}
@@ -606,9 +606,9 @@ class Country extends React.Component {
                         </Card>
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/>
-                            <h6>{result.universityName_6}</h6>
+                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
                             <Card.Title style={{fontSize:'17px'}}>{result.studentName_6}</Card.Title>
+                            <h6>{result.universityName_6}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
                             <Card.Text>
                              {result.testimonial_6}
