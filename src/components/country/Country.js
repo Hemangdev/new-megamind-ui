@@ -542,11 +542,11 @@ class Country extends React.Component {
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
                             <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
-                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_1}</Card.Title>
-                            <h6>{result.universityName_1}</h6> 
+                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_1 ? result.studentName_1 : 'Jaswant Singh'}</Card.Title>
+                            <h6>{result.universityName_1 ? result.universityName_1 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-                            <Card.Text>
-                             {result.testimonial_1}
+                            <Card.Text style={{fontSize:'13px',textAlign:'center'}}>
+                             {result.testimonial_1 ? result.testimonial_1 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
                             </Card.Text>
                             {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
@@ -555,11 +555,11 @@ class Country extends React.Component {
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
                             <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
-                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_2}</Card.Title>
-                            <h6>{result.universityName_2}</h6>
+                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_2 ? result.studentName_2 : 'Jaswant Singh'}</Card.Title>
+                            <h6>{result.universityName_2 ? result.universityName_2 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-                            <Card.Text>
-                             {result.testimonial_2}
+                            <Card.Text style={{fontSize:'13px',textAlign:'center'}}>
+                             {result.testimonial_2 ? result.testimonial_2 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
                             </Card.Text>
                             {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
@@ -568,11 +568,11 @@ class Country extends React.Component {
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
                             <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
-                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_3}</Card.Title>
-                            <h6>{result.universityName_3}</h6>
+                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_3 ? result.studentName_3 : 'Jaswant Singh'}</Card.Title>
+                            <h6>{result.universityName_3 ? result.universityName_3 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-                            <Card.Text>
-                             {result.testimonial_3}
+                            <Card.Text style={{fontSize:'13px',textAlign:'center'}}>
+                             {result.testimonial_3 ? result.testimonial_3 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
                             </Card.Text>
                             {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
@@ -581,11 +581,11 @@ class Country extends React.Component {
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
                             <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
-                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_4}</Card.Title>
-                            <h6>{result.universityName_4}</h6>
+                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_4 ? result.studentName_4 : 'Jaswant Singh'}</Card.Title>
+                            <h6>{result.universityName_4 ? result.universityName_4 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-                            <Card.Text>
-                             {result.testimonial_4}
+                            <Card.Text style={{fontSize:'13px',textAlign:'center'}}>
+                             {result.testimonial_4 ? result.testimonial_4 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
                             </Card.Text>
                             {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
@@ -594,11 +594,11 @@ class Country extends React.Component {
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
                             <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
-                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_5}</Card.Title>
-                            <h6>{result.universityName_5}</h6>
+                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_5 ? result.studentName_5 : 'Jaswant Singh'}</Card.Title>
+                            <h6>{result.universityName_5 ? result.universityName_5 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-                            <Card.Text>
-                             {result.testimonial_5}
+                            <Card.Text style={{fontSize:'13px',textAlign:'center'}}>
+                             {result.testimonial_5 ? result.testimonial_5 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
                             </Card.Text>
                             {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
@@ -607,12 +607,12 @@ class Country extends React.Component {
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
                             <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
-                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_6}</Card.Title>
-                            <h6>{result.universityName_6}</h6>
+                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_5 ? result.studentName_5 : 'Jaswant Singh'}</Card.Title>
+                            <h6>{result.universityName_6 ? result.universityName_6 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-                            <Card.Text>
-                             {result.testimonial_6}
-                            </Card.Text>  
+                            <Card.Text style={{fontSize:'13px',textAlign:'center'}}>
+                             {result.testimonial_6 ? result.testimonial_6 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
+                            </Card.Text> 
                             {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
                           </Card.Body>
