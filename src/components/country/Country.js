@@ -541,7 +541,7 @@ class Country extends React.Component {
                       <div className="d-grid innergrid3 px-4">
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
+                            <img style={{borderRadius:'50%'}} src={result.studentImage_1}/> 
                             <Card.Title style={{fontSize:'17px'}}>{result.studentName_1 ? result.studentName_1 : 'Jaswant Singh'}</Card.Title>
                             <h6>{result.universityName_1 ? result.universityName_1 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
@@ -554,7 +554,7 @@ class Country extends React.Component {
                         </Card>
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
+                            <img style={{borderRadius:'50%'}} src={result.studentImage_2}/> 
                             <Card.Title style={{fontSize:'17px'}}>{result.studentName_2 ? result.studentName_2 : 'Jaswant Singh'}</Card.Title>
                             <h6>{result.universityName_2 ? result.universityName_2 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
@@ -567,7 +567,7 @@ class Country extends React.Component {
                         </Card>
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
+                            <img style={{borderRadius:'50%'}} src={result.studentImage_3}/> 
                             <Card.Title style={{fontSize:'17px'}}>{result.studentName_3 ? result.studentName_3 : 'Jaswant Singh'}</Card.Title>
                             <h6>{result.universityName_3 ? result.universityName_3 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
@@ -580,7 +580,7 @@ class Country extends React.Component {
                         </Card>
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
+                            <img style={{borderRadius:'50%'}} src={result.studentImage_4}/> 
                             <Card.Title style={{fontSize:'17px'}}>{result.studentName_4 ? result.studentName_4 : 'Jaswant Singh'}</Card.Title>
                             <h6>{result.universityName_4 ? result.universityName_4 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
@@ -593,7 +593,7 @@ class Country extends React.Component {
                         </Card>
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
+                            <img style={{borderRadius:'50%'}} src={result.studentImage_5}/> 
                             <Card.Title style={{fontSize:'17px'}}>{result.studentName_5 ? result.studentName_5 : 'Jaswant Singh'}</Card.Title>
                             <h6>{result.universityName_5 ? result.universityName_5 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
@@ -606,7 +606,7 @@ class Country extends React.Component {
                         </Card>
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%'}} src="https://placehold.co/100x100?font=roboto"/> 
+                            <img style={{borderRadius:'50%'}} src={result.studentImage_6}/> 
                             <Card.Title style={{fontSize:'17px'}}>{result.studentName_5 ? result.studentName_5 : 'Jaswant Singh'}</Card.Title>
                             <h6>{result.universityName_6 ? result.universityName_6 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
