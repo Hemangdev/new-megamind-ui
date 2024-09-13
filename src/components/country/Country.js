@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -115,7 +116,7 @@ class Country extends React.Component {
       <>
         {this.state.data.map((result) => {
           console.log(result);
-          
+
           return (
             <Container
               className="padding-top-4 bgbackcountrty pb-10"
@@ -192,7 +193,7 @@ class Country extends React.Component {
 
                 <Col sm={4} md={3} className="padding-5">
                   <div className="Countrty-Icon">
-                    <img 
+                    <img
                       className="w-0"
                       src={result?.fast_fact_img_url_1}
                       alt="Flag"
@@ -539,53 +540,53 @@ class Country extends React.Component {
                     {/* Dynamic testimonial Data */}
                     <TabPanel className="pt-4">
                       <div className="d-grid innergrid3 px-4">
-                        <Card style={{ width: '18rem'}}>
-                          <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%',height:'80px',width:'80px'}} src={result.studentImage_1}/> 
-                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_1 ? result.studentName_1 : 'Jaswant Singh'}</Card.Title>
+                        <Card style={{ width: '18rem' }}>
+                          <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '6px' }}>
+                            <img style={{ borderRadius: '50%', height: '80px', width: '80px' }} src={result.studentImage_1} />
+                            <Card.Title style={{ fontSize: '17px' }}>{result.studentName_1 ? result.studentName_1 : 'Jaswant Singh'}</Card.Title>
                             <h6>{result.universityName_1 ? result.universityName_1 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-                            <Card.Text style={{fontSize:'13px',textAlign:'center'}}>
-                             {result.testimonial_1 ? result.testimonial_1 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
+                            <Card.Text style={{ fontSize: '13px', textAlign: 'center' }}>
+                              {result.testimonial_1 ? result.testimonial_1 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
                             </Card.Text>
                             {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
                           </Card.Body>
                         </Card>
-                        <Card style={{ width: '18rem'}}>
-                          <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%',height:'80px',width:'80px'}} src={result.studentImage_2}/> 
-                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_2 ? result.studentName_2 : 'Jaswant Singh'}</Card.Title>
+                        <Card style={{ width: '18rem' }}>
+                          <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '6px' }}>
+                            <img style={{ borderRadius: '50%', height: '80px', width: '80px' }} src={result.studentImage_2} />
+                            <Card.Title style={{ fontSize: '17px' }}>{result.studentName_2 ? result.studentName_2 : 'Jaswant Singh'}</Card.Title>
                             <h6>{result.universityName_2 ? result.universityName_2 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-                            <Card.Text style={{fontSize:'13px',textAlign:'center'}}>
-                             {result.testimonial_2 ? result.testimonial_2 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
+                            <Card.Text style={{ fontSize: '13px', textAlign: 'center' }}>
+                              {result.testimonial_2 ? result.testimonial_2 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
                             </Card.Text>
                             {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
                           </Card.Body>
                         </Card>
-                        <Card style={{ width: '18rem'}}>
-                          <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%',height:'80px',width:'80px'}} src={result.studentImage_3}/> 
-                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_3 ? result.studentName_3 : 'Jaswant Singh'}</Card.Title>
+                        <Card style={{ width: '18rem' }}>
+                          <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '6px' }}>
+                            <img style={{ borderRadius: '50%', height: '80px', width: '80px' }} src={result.studentImage_3} />
+                            <Card.Title style={{ fontSize: '17px' }}>{result.studentName_3 ? result.studentName_3 : 'Jaswant Singh'}</Card.Title>
                             <h6>{result.universityName_3 ? result.universityName_3 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-                            <Card.Text style={{fontSize:'13px',textAlign:'center'}}>
-                             {result.testimonial_3 ? result.testimonial_3 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
+                            <Card.Text style={{ fontSize: '13px', textAlign: 'center' }}>
+                              {result.testimonial_3 ? result.testimonial_3 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
                             </Card.Text>
                             {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
                           </Card.Body>
                         </Card>
-                        <Card style={{ width: '18rem'}}>
-                          <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%',height:'80px',width:'80px'}} src={result.studentImage_4}/> 
-                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_4 ? result.studentName_4 : 'Jaswant Singh'}</Card.Title>
+                        <Card style={{ width: '18rem' }}>
+                          <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '6px' }}>
+                            <img style={{ borderRadius: '50%', height: '80px', width: '80px' }} src={result.studentImage_4} />
+                            <Card.Title style={{ fontSize: '17px' }}>{result.studentName_4 ? result.studentName_4 : 'Jaswant Singh'}</Card.Title>
                             <h6>{result.universityName_4 ? result.universityName_4 : 'Delhi University'}</h6>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-                            <Card.Text style={{fontSize:'13px',textAlign:'center'}}>
-                             {result.testimonial_4 ? result.testimonial_4 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
+                            <Card.Text style={{ fontSize: '13px', textAlign: 'center' }}>
+                              {result.testimonial_4 ? result.testimonial_4 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
                             </Card.Text>
                             {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
@@ -593,39 +594,46 @@ class Country extends React.Component {
                         </Card>
 
                         {
-                        (result.country !== "Canada" && result.country !== "Germany" && result.country !== "UK") && 
-                        <>
-                        <Card style={{ width: '18rem'}}>
-                          <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%',height:'80px',width:'80px'}} src={result.studentImage_5}/> 
-                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_5 ? result.studentName_5 : 'Jaswant Singh'}</Card.Title>
-                            <h6>{result.universityName_5 ? result.universityName_5 : 'Delhi University'}</h6>
-                            {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-                            <Card.Text style={{fontSize:'13px',textAlign:'center'}}>
-                             {result.testimonial_5 ? result.testimonial_5 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
-                            </Card.Text>
-                            {/* <Card.Link href="#">Card Link</Card.Link>
+                          (result.country !== "Canada" && result.country !== "Germany" && result.country !== "UK") &&
+                          <>
+                            <Card style={{ width: '18rem' }}>
+                              <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '6px' }}>
+                                <img style={{ borderRadius: '50%', height: '80px', width: '80px' }} src={result.studentImage_5} />
+                                <Card.Title style={{ fontSize: '17px' }}>{result.studentName_5 ? result.studentName_5 : 'Jaswant Singh'}</Card.Title>
+                                <h6>{result.universityName_5 ? result.universityName_5 : 'Delhi University'}</h6>
+                                {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                                <Card.Text style={{ fontSize: '13px', textAlign: 'center' }}>
+                                  {result.testimonial_5 ? result.testimonial_5 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
+                                </Card.Text>
+                                {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
-                          </Card.Body>
-                        </Card>
-                        <Card style={{ width: '18rem'}}>
-                          <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
-                            <img style={{borderRadius:'50%',height:'80px',width:'80px'}} src={result.studentImage_6}/> 
-                            <Card.Title style={{fontSize:'17px'}}>{result.studentName_5 ? result.studentName_5 : 'Jaswant Singh'}</Card.Title>
-                            <h6>{result.universityName_6 ? result.universityName_6 : 'Delhi University'}</h6>
-                            {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-                            <Card.Text style={{fontSize:'13px',textAlign:'center'}}>
-                             {result.testimonial_6 ? result.testimonial_6 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
-                            </Card.Text> 
-                            {/* <Card.Link href="#">Card Link</Card.Link>
+                              </Card.Body>
+                            </Card>
+                            <Card style={{ width: '18rem' }}>
+                              <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '6px' }}>
+                                <img style={{ borderRadius: '50%', height: '80px', width: '80px' }} src={result.studentImage_6} />
+                                <Card.Title style={{ fontSize: '17px' }}>{result.studentName_5 ? result.studentName_5 : 'Jaswant Singh'}</Card.Title>
+                                <h6>{result.universityName_6 ? result.universityName_6 : 'Delhi University'}</h6>
+                                {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                                <Card.Text style={{ fontSize: '13px', textAlign: 'center' }}>
+                                  {result.testimonial_6 ? result.testimonial_6 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
+                                </Card.Text>
+                                {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
-                          </Card.Body>
-                        </Card> </>
-        }
+                              </Card.Body>
+                            </Card> </>
+                        }
                       </div>
                       {/* <button onClick={myFunction} id="myBtn">
                         View More
                       </button> */}
+                    </TabPanel>
+
+
+                    <TabPanel>
+                        
+
+
                     </TabPanel>
 
                     {/* FAQ TAB START HERE */
@@ -786,8 +794,8 @@ class Country extends React.Component {
         {/* MOBILE DESIGN LAYOUTE CODE HERE */}
 
         {this.state.data.map((result) => {
-          
-          
+
+
           return (
             <Container
               className="py-5 DesktopDisplay"
@@ -1018,7 +1026,7 @@ class Country extends React.Component {
                           </Col>
                         </Row>
                       </Accordion.Body>
-                    </Accordion.Item> */}
+                    </Accordion.Item>   */}
 
                     <Accordion.Item eventKey="2">
                       <Accordion.Header>
@@ -1175,101 +1183,136 @@ class Country extends React.Component {
                     <Accordion.Item eventKey="3">
                       <Accordion.Header> Testimonial </Accordion.Header>
                       <Accordion.Body>
-                        <div className="d-grid minnergrid2">
-                          <div class="wrimagecard wrimagecard-topimage Co-Card">
-                            <iframe
-                              width="auto"
-                              height="169"
-                              src="https://www.youtube.com/embed/zvwbPWfa2WQ?rel=0&amp;controls=0&amp;enablejsapi=1&autoplay=0"
-                              title="YouTube video player"
-                              frameborder="0"
-                              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                              allowfullscreen
-                            ></iframe>
-                          </div>
+                        {/* 1st card */}
+                        <div className="d-grid innergridMobile px-4">
+                          <Card className="student-card">
+                            <Card.Body className="student-card-body">
+                              <img
+                                className="student-image"
+                                src={result.studentImage_1}
+                                alt={result.studentName_1 || 'Jaswant Singh'}
+                              />
+                              <Card.Title className="student-name">
+                                {result.studentName_1 ? result.studentName_1 : 'Jaswant Singh'}
+                              </Card.Title>
+                              <h6 className="university-name">
+                                {result.universityName_1 ? result.universityName_1 : 'Delhi University'}
+                              </h6>
+                              <Card.Text className="testimonial-text">
+                                {result.testimonial_1
+                                  ? result.testimonial_1
+                                  : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency.'}
+                              </Card.Text>
+                            </Card.Body>
+                          </Card>
+                          {/* 2nd card */}
+                          <Card className="student-card" style={{marginTop:'12px'}}>
+                            <Card.Body className="student-card-body">
+                              <img
+                                className="student-image"
+                                src={result.studentImage_2}
+                                alt={result.studentName_2 || 'Jaswant Singh'}
+                              />
+                              <Card.Title className="student-name">
+                                {result.studentName_2 ? result.studentName_2 : 'Jaswant Singh'}
+                              </Card.Title>
+                              <h6 className="university-name">
+                                {result.universityName_2 ? result.universityName_2 : 'Delhi University'}
+                              </h6>
+                              <Card.Text className="testimonial-text">
+                                {result.testimonial_2
+                                  ? result.testimonial_2
+                                  : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency.'}
+                              </Card.Text>
+                            </Card.Body>
+                          </Card>
+                          {/* 3rd card */}
+                          <Card className="student-card" style={{marginTop:'22px'}} >
+                            <Card.Body className="student-card-body">
+                              <img
+                                className="student-image"
+                                src={result.studentImage_3}
+                                alt={result.studentName_3 || 'Jaswant Singh'}
+                              />
+                              <Card.Title className="student-name">
+                                {result.studentName_3 ? result.studentName_3 : 'Jaswant Singh'}
+                              </Card.Title>
+                              <h6 className="university-name">
+                                {result.universityName_3 ? result.universityName_3 : 'Delhi University'}
+                              </h6>
+                              <Card.Text className="testimonial-text">
+                                {result.testimonial_3
+                                  ? result.testimonial_3
+                                  : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency.'}
+                              </Card.Text>
+                            </Card.Body>
+                          </Card>
+                          {/* 4th card */}
+                          <Card className="student-card" style={{marginTop:'36px'}} >
+                            <Card.Body className="student-card-body">
+                              <img
+                                className="student-image"
+                                src={result.studentImage_4}
+                                alt={result.studentName_4 || 'Jaswant Singh'}
+                              />
+                              <Card.Title className="student-name">
+                                {result.studentName_4 ? result.studentName_4 : 'Jaswant Singh'}
+                              </Card.Title>
+                              <h6 className="university-name">
+                                {result.universityName_4 ? result.universityName_4 : 'Delhi University'}
+                              </h6>
+                              <Card.Text className="testimonial-text">
+                                {result.testimonial_4
+                                  ? result.testimonial_4
+                                  : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency.'}
+                              </Card.Text>
+                            </Card.Body>
+                          </Card>
 
-                          <div class="wrimagecard wrimagecard-topimage Co-Card">
-                            <iframe
-                              width="auto"
-                              height="169"
-                              src="https://www.youtube.com/embed/QJmlkbjjWIo?rel=0&amp;controls=0&amp;enablejsapi=1&autoplay=0"
-                              title="YouTube video player"
-                              frameborder="0"
-                              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                              allowfullscreen
-                            ></iframe>
-                          </div>
-
-                          <div class="wrimagecard wrimagecard-topimage Co-Card">
-                            <iframe
-                              width="auto"
-                              height="169"
-                              src="https://www.youtube.com/embed/dYSmzC4z6g0?rel=0&amp;controls=0&amp;enablejsapi=1&autoplay=0"
-                              title="YouTube video player"
-                              frameborder="0"
-                              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                              allowfullscreen
-                            ></iframe>
-                          </div>
-
-                          <div class="wrimagecard wrimagecard-topimage Co-Card">
-                            <iframe
-                              width="auto"
-                              height="169"
-                              src="https://www.youtube.com/embed/AS-QgN5f6SY?rel=0&amp;controls=0&amp;enablejsapi=1&autoplay=0"
-                              title="YouTube video player"
-                              frameborder="0"
-                              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                              allowfullscreen
-                            ></iframe>
-                          </div>
-
-                          <div class="wrimagecard wrimagecard-topimage Co-Card">
-                            <iframe
-                              width="auto"
-                              height="169"
-                              src="https://www.youtube.com/embed/zYxZSvhBkRw?rel=0&amp;controls=0&amp;enablejsapi=1&autoplay=0"
-                              title="YouTube video player"
-                              frameborder="0"
-                              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                              allowfullscreen
-                            ></iframe>
-                          </div>
-
-                          <div class="wrimagecard wrimagecard-topimage Co-Card">
-                            <iframe
-                              width="auto"
-                              height="169"
-                              src="https://www.youtube.com/embed/OuqxPEpMyV0?rel=0&amp;controls=0&amp;enablejsapi=1&autoplay=0"
-                              title="YouTube video player"
-                              frameborder="0"
-                              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                              allowfullscreen
-                            ></iframe>
-                          </div>
-
-                          <span id="dots"></span>
-                          <span id="more">
-                            <div class="wrimagecard wrimagecard-topimage Co-Card">
-                              <iframe
-                                width="auto"
-                                height="169"
-                                src="https://www.youtube.com/embed/lF7XItt1Xx8?rel=0&amp;controls=0&amp;enablejsapi=1&autoplay=0"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen
-                              ></iframe>
-                            </div>
-                          </span>
+                          {
+                            (result.country !== "Canada" && result.country !== "Germany" && result.country !== "UK") &&
+                            <>
+                            {/* 5th card */}
+                              <Card style={{ width: '23rem', marginTop: '12px' }}>
+                                <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '6px' }}>
+                                  <img style={{ borderRadius: '50%', height: '80px', width: '80px' }} src={result.studentImage_5} />
+                                  <Card.Title style={{ fontSize: '17px' }}>{result.studentName_5 ? result.studentName_5 : 'Jaswant Singh'}</Card.Title>
+                                  <h6>{result.universityName_5 ? result.universityName_5 : 'Delhi University'}</h6>
+                                  {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                                  <Card.Text style={{ fontSize: '13px', textAlign: 'center' }}>
+                                    {result.testimonial_5 ? result.testimonial_5 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
+                                  </Card.Text>
+                                  {/* <Card.Link href="#">Card Link</Card.Link>
+                            <Card.Link href="#">Another Link</Card.Link> */}
+                                </Card.Body>
+                              </Card>
+                              {/* 6th card */}
+                              <Card style={{ width: '23rem', marginTop: '12px' }}>
+                                <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '6px' }}>
+                                  <img style={{ borderRadius: '50%', height: '80px', width: '80px' }} src={result.studentImage_6} />
+                                  <Card.Title style={{ fontSize: '17px' }}>{result.studentName_5 ? result.studentName_5 : 'Jaswant Singh'}</Card.Title>
+                                  <h6>{result.universityName_6 ? result.universityName_6 : 'Delhi University'}</h6>
+                                  {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                                  <Card.Text style={{ fontSize: '13px', textAlign: 'center' }}>
+                                    {result.testimonial_6 ? result.testimonial_6 : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency. '}
+                                  </Card.Text>
+                                  {/* <Card.Link href="#">Card Link</Card.Link>
+                            <Card.Link href="#">Another Link</Card.Link> */}
+                                </Card.Body>
+                              </Card>
+                            </>
+                          }
                         </div>
-                        <button onClick={myFunction} id="myBtn">
+                        {/* <button onClick={myFunction} id="myBtn">
                           Read more
-                        </button>
+                        </button> */}
                       </Accordion.Body>
                     </Accordion.Item>
 
-                    <Accordion.Item eventKey="4">
+
+
+{/* Team removed from  mobile  */}
+                    {/* <Accordion.Item eventKey="4">
                       <Accordion.Header> Team </Accordion.Header>
                       <Accordion.Body>
                         <div className="d-grid innergrid3 px-4">
@@ -1393,7 +1436,7 @@ class Country extends React.Component {
                           Read more
                         </button>
                       </Accordion.Body>
-                    </Accordion.Item>
+                    </Accordion.Item> */}
 
                     <Accordion.Item eventKey="5">
                       <Accordion.Header> FAQ </Accordion.Header>

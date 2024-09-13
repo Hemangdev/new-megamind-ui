@@ -672,7 +672,7 @@ function Footer() {
       {/* bottom call and whatsapp CTA */}
       <Col sm={12} className="bottom-fixed-links">
         <li><a className="bottomPatti" href="https://api.whatsapp.com/send/?phone=%2B918882255001&text&type=phone_number&app_absent=0"><img src={img}/><span>Connect</span></a></li>
-        <li><a className="bottomPatti" href="tel:+919990737589"><i class="fa-solid fa-phone"></i><span>Call us</span></a></li>
+        <li><a className="bottomPatti" href="tel:+918882255001"><i class="fa-solid fa-phone"></i><span>Call us</span></a></li>
         <li><a className="bottomPatti" href="https://megamindonline.com/course-finder/"><i class="fa-solid fa-magnifying-glass"></i><span>Course finder</span></a></li>
         <li><a onClick={handleViewCont} className="bottomPatti"><i class="fa-solid fa-earth-africa"></i><span>Countries</span></a></li>
         <li><a className="bottomPatti" href="https://megamindonline.com/Ielts"><i class="fa-solid fa-plane-up"></i><span>IELTS</span></a></li>
