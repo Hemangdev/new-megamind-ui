@@ -102,11 +102,11 @@ function Footer() {
                   />
                 </NavLink>
                 <div className="padding-top-5 pb-2">
-                  <NavLink to="https://www.facebook.com/megamindcon/" target="_blank" className="fa-brands fa-facebook mega-icon"></NavLink>
-                  <NavLink to="https://www.instagram.com/megamindconsultants/" target="_blank" className="fa-brands fa-instagram mega-icon"></NavLink>
+                  <NavLink to="https://www.facebook.com/megamindcon/" target="_blank" className="fa-brands fa-facebook mega-icon-facebook"></NavLink>
+                  <NavLink to="https://www.instagram.com/megamindconsultants/" target="_blank" className="fa-brands fa-instagram mega-icon-insta"></NavLink>
                   <NavLink to="https://in.linkedin.com/company/megamindcon" target="_blank" className="fa-brands fa-linkedin mega-icon"></NavLink>
-                  <NavLink to="https://www.youtube.com/channel/UCkSuejbTdz5Nn3Bf4x8ADCQ" target="_blank" className="fa-brands fa-youtube mega-icon"></NavLink>
-                  <NavLink to="https://twitter.com/megamindcon" target="_blank" className="fa-brands fa-x-twitter mega-icon">  <FontAwesomeIcon /> </NavLink>
+                  <NavLink to="https://www.youtube.com/channel/UCkSuejbTdz5Nn3Bf4x8ADCQ" target="_blank" className="fa-brands fa-youtube mega-icon-yt"></NavLink>
+                  <NavLink to="https://twitter.com/megamindcon" target="_blank" className="fa-brands fa-x-twitter mega-icon-twitter">  <FontAwesomeIcon /> </NavLink>
                 </div>
               </div>
             </Col>

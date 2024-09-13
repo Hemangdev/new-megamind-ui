@@ -1366,6 +1366,30 @@ display: none;
   font-size: 30px;
   margin: 10px;
 }
+.mega-icon-yt {
+  background-color: #fff !important;
+  color: red;
+  font-size: 30px;
+  margin: 10px;
+}
+.mega-icon-twitter {
+  background-color: #fff !important;
+  color: black;
+  font-size: 30px;
+  margin: 10px;
+}
+.mega-icon-insta {
+  background-color: #fff !important;
+  color: #d14278;
+  font-size: 30px;
+  margin: 10px;
+}
+.mega-icon-facebook {
+  background-color: #fff !important;
+  color: #395693;
+  font-size: 30px;
+  margin: 10px;
+}
 
 .megaming-pop{
   background: #016bb7 !important;
