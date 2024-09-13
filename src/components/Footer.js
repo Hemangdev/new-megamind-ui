@@ -246,7 +246,7 @@ function Footer() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="list-style" target="_blank" to="/country?code=New Zealand" exact>
+                  <NavLink className="list-style" target="_blank" to="/country?code=Switzerland" exact>
                     {" Study in Switzerland "}
                   </NavLink>
                 </li>
@@ -492,50 +492,49 @@ function Footer() {
             <Modal.Header closeButton>
               <Modal.Title>Select Countries</Modal.Title>
             </Modal.Header>
-            <Modal.Body>
-            <div className="">
-              <div className="img-cont">
-                <div class="img-wim">
-                  <NavLink to="/country?code=UK" target="_blank">
-                    <img
-                      src={Flag0}
-                      className="img-imo zoom-thumbnail w-60 Flag"
-                      // style={{ marginTop: "-50px" }}
-                      alt="ImageMaker"
-                      title="United Kingdom"
-                    />
-                  </NavLink>
-                </div>
-                <h2 className="country-name">Study in United Kingdom</h2>
-              </div>
-              <div className="img-cont">
-                <div class="img-wim">
-                  <NavLink to="/country?code=USA" target="_blank">
-                    <img
-                      src={Flag1}
-                      className="img-imo zoom-thumbnail  w-60 Flag"
-                      // style={{ marginTop: "-50px" }}
-                      alt="ImageMaker"
-                      title=" United States of America"
-                    />
-                  </NavLink>
-                </div>
-                <h2 className="country-name">Study in United States of America</h2>
-              </div>
-              <div className="img-cont">
-                <div class="img-wim">
-                  <NavLink to="/country?code=GERMANY" target="_blank">
-                    <img
-                      src={Flag3}
-                      className="img-imo zoom-thumbnail  w-60 Flag"
-                      // style={{ marginTop: "-50px" }}
-                      alt="ImageMaker"
-                      title="Germany"
-                    />
-                  </NavLink>
-                </div>
-                <h2 className="country-name"> Study in Germany</h2>
-              </div>
+            <Modal.Body> 
+              <NavLink to="/country?code=UK" target="_blank" className="countries_navLink">
+                <div className="img-cont">
+                  <div class="img-wim">
+                      <img
+                        src={Flag0}
+                        className="img-imo zoom-thumbnail w-60 Flag"
+                        // style={{ marginTop: "-50px" }}
+                        alt="ImageMaker"
+                        title="United Kingdom"
+                      />
+                  </div>
+                  <h2 className="country-name">Study in United Kingdom</h2>
+                </div> 
+              </NavLink> 
+              <NavLink to="/country?code=USA" target="_blank" className="countries_navLink">
+                <div className="img-cont">
+                  <div class="img-wim">
+                      <img
+                        src={Flag1}
+                        className="img-imo zoom-thumbnail  w-60 Flag"
+                        // style={{ marginTop: "-50px" }}
+                        alt="ImageMaker"
+                        title=" United States of America"
+                      />
+                  </div>
+                  <h2 className="country-name">Study in United States of America</h2>
+                </div> 
+              </NavLink>
+              <NavLink to="/country?code=GERMANY" target="_blank" className="countries_navLink">
+                <div className="img-cont">
+                  <div class="img-wim">
+                      <img
+                        src={Flag3}
+                        className="img-imo zoom-thumbnail  w-60 Flag"
+                        // style={{ marginTop: "-50px" }}
+                        alt="ImageMaker"
+                        title="Germany"
+                      />
+                  </div>
+                  <h2 className="country-name"> Study in Germany</h2>
+                </div> 
+              </NavLink>
               {/* <NavLink to="/country?code=New Zealand" target="_blank">
                 <img
                   src={Flag4}
@@ -556,72 +555,65 @@ function Footer() {
                 />
               </NavLink> */}
               {/* <NavLink> <img src={ArtbordImage} className="w-100 Flag" style={{ marginTop: '-50px' }} alt="ImageMaker" /></NavLink> */}
-            </div>
-            <div className="">
-              <div className="img-cont">
-                <div class="img-wim">
-                  <NavLink to="/country?code=CANADA" target="_blank" className="width-img-fleg">
-                    <img
-                      src={Flag2}
-                      className="img-imo zoom-thumbnail  w-60 Flag"
-                      // style={{ marginTop: "-50px" }}
-                      alt="ImageMaker"
-                      title="Canada"
-                    />
-                  </NavLink>
+               <NavLink to="/country?code=CANADA" target="_blank" className="width-img-fleg countries_navLink">
+                  <div className="img-cont">
+                    <div class="img-wim">
+                        <img
+                          src={Flag2}
+                          className="img-imo zoom-thumbnail  w-60 Flag"
+                          // style={{ marginTop: "-50px" }}
+                          alt="ImageMaker"
+                          title="Canada"
+                        />
+                    </div>
+
+                    <h2 className="country-name"> Study in Canada</h2>
+
+                  </div>
+                </NavLink>
+                <NavLink to="/country?code=Australia" target="_blank" className="countries_navLink">
+                  <div className="img-cont">
+                    <div class="img-wim">
+                        <img
+                          src={Flag5}
+                          className="img-imo zoom-thumbnail  w-60 Flag"
+                          // style={{ marginTop: "-50px" }}
+                          alt="ImageMaker"
+                          title="Australia"
+                        />
+                    </div>
+                    <h2 className="country-name"> Study in Australia</h2>
+                  </div> 
+              </NavLink>
+              <NavLink to="/country?code=Ireland" target="_blank" className="countries_navLink">
+                <div className="img-cont">
+                  <div class="img-wim">
+                      <img
+                        src={Flag6}
+                        className="img-imo zoom-thumbnail  w-60 Flag"
+                        // style={{ marginTop: "-50px" }}
+                        alt="ImageMaker"
+                        title="Australia"
+                      />
+                  </div>
+                  <h2 className="country-name"> Study in Ireland</h2>
+                </div> 
+              </NavLink>
+              <NavLink to="/country?code=Switzerland" target="_blank" className="countries_navLink">
+                <div className="img-cont">
+                  <div class="img-wim">
+                      <img
+                        src={swiss}
+                        style={{borderRadius:'50%'}}
+                        className="img-imo zoom-thumbnail  w-60 Flag"
+                        // style={{ marginTop: "-50px" }}
+                        alt="ImageMaker"
+                        title="Switzerland"
+                      />
+                  </div>
+                  <h2 className="country-name"> Study in Switzerland</h2>
                 </div>
-
-                <h2 className="country-name"> Study in Canada</h2>
-
-              </div>
-              <div className="img-cont">
-                <div class="img-wim">
-                  <NavLink to="/country?code=Australia" target="_blank">
-                    <img
-                      src={Flag5}
-                      className="img-imo zoom-thumbnail  w-60 Flag"
-                      // style={{ marginTop: "-50px" }}
-                      alt="ImageMaker"
-                      title="Australia"
-                    />
-
-                  </NavLink>
-                </div>
-                <h2 className="country-name"> Study in Australia</h2>
-              </div>
-              <div className="img-cont">
-                <div class="img-wim">
-                  <NavLink to="/country?code=Australia" target="_blank">
-                    <img
-                      src={Flag6}
-                      className="img-imo zoom-thumbnail  w-60 Flag"
-                      // style={{ marginTop: "-50px" }}
-                      alt="ImageMaker"
-                      title="Australia"
-                    />
-
-                  </NavLink>
-                </div>
-                <h2 className="country-name"> Study in Ireland</h2>
-              </div>
-              <div className="img-cont">
-                <div class="img-wim">
-                  <NavLink to="/country?code=Australia" target="_blank">
-                    <img
-                      src={swiss}
-                      style={{borderRadius:'50%'}}
-                      className="img-imo zoom-thumbnail  w-60 Flag"
-                      // style={{ marginTop: "-50px" }}
-                      alt="ImageMaker"
-                      title="Australia"
-                    />
-
-                  </NavLink>
-                </div>
-                <h2 className="country-name"> Study in Switzerland</h2>
-              </div>
-
-            </div>
+              </NavLink>
             </Modal.Body>
           </Modal>
 

@@ -650,7 +650,7 @@ const [value, setValue] = useState();
                 <option>Select State</option>
                 <option>Canada</option>
                 <option>Australia</option>
-                <option>New Zealand</option>
+                <option>Switzerland</option>
                 <option>Ireland</option>
                 <option>United Kingdom</option>
                 <option>United States of America</option>

@@ -82,7 +82,7 @@ function Popuper() {
                     <option>Germany</option>
                     <option>Australia</option>
                     <option>U.K.</option>
-                    <option>New Zealand</option>
+                    <option>Swizerland</option>
                     <option>Ireland</option>
                   </select>
                 </div>

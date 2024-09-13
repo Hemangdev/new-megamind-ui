@@ -127,12 +127,12 @@ const StudySlider = () => {
               </div>
 
               <div className="card-boxer">
-                <NavLink to="country?code=New Zealand" exact target="_blank">
+                <NavLink to="country?code=Switzerland" exact target="_blank">
                   <img
                     className="img-fluid border-radius"
                     alt="100%x280"
                     src={StudyImage4}
-                    title="Study in New Zealand"
+                    title="Study in Switzerland"
                   />
                   <h5 className="Box-Title">Study in Switzerland</h5>
                 </NavLink>

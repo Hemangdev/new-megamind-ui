@@ -257,14 +257,14 @@ function ArtboardHome() {
               </div>
               <div className="img-cont">
                 <div class="img-wim">
-                  <NavLink to="/" target="_blank">
+                  <NavLink to="/country?code=Switzerland" target="_blank">
                     <img
                       src={swiss}
                       className="img-imo zoom-thumbnail  w-60 Flag"
                       style={{borderRadius:'50%'}}
                       // style={{ marginTop: "-50px" }}
                       alt="ImageMaker"
-                      title="Australia"
+                      title="Switzerland"
                     />
 
                   </NavLink>

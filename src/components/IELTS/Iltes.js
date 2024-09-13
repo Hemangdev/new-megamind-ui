@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
+import Card from 'react-bootstrap/Card';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "react-phone-number-input/style.css";
 import "./ielts.css";
@@ -29,8 +30,11 @@ import EducationImage2 from "../../images/ielts/education-high2.png";
 import EducationImage3 from "../../images/ielts/education-high3.png";
 import EducationImage4 from "../../images/ielts/education-high4.png";
 import ReviewImage from "../../images/ielts/eviews.png";
+import Ielts1 from '../../images/ielts/ielt1.png'
+import Ielts2 from '../../images/ielts/ielt2.png'
+import Ielts3 from '../../images/ielts/ielt3.png'
 
-import newImgage from '../../images/ielts/megamind-1.jpg';
+import newImage from '../../images/ielts/megamind-1.jpg';
 import newImage2 from '../../images/ielts/megamind-2.jpg'
 import newImage3 from '../../images/ielts/megamind-3.jpg'
 
@@ -47,6 +51,21 @@ function Ielts() {
     }
   };
 
+  const ieltsSuccess = [
+    { img: Ielts1,
+      name:'Achsah Johney',
+      desc:'I took 15 days IELTS course here in Megamind with no idea how the exam takes place but the professionals here trained me well to get overall band of 7.5. I am grateful for everyone who helped me clear my exam and those who are helping me for reaching my dream destination. I will surely recommend this agency to everyone who want to achieve their dream of studying abroad.',
+    },
+    { img: Ielts2,
+      name:' Mohd Nihal',
+      desc:'Began my IELTS journey with Megamind by taking IELTS classes and found it very helpful. I got my desired band score, 7 band within a month, with support the IELTS teacher.',
+    },
+    { img: Ielts3,
+      name:'Faiz',
+      desc:'Faculty is very friendly and supportive. I got my desired band 7.0 with the help of the IELTS teacher.',
+    },
+  ]
+  console.log(ieltsSuccess.map(data => console.log(data)));
   return (
     <>
       <Container className="iets-bg" fluid>
@@ -205,7 +224,7 @@ function Ielts() {
                     <div className="generic_content clearfix">
                       <div className="generic_head_price clearfix">
                         <div className="generic_head_content clearfix">
-                          <img src={newImgage} alt="" width={"100%"} />
+                          <img src={newImage2} alt="" width={"100%"} />
                         </div>
 
                         <div className="generic_price_tag clearfix">
@@ -214,7 +233,7 @@ function Ielts() {
                             EXPRESS PROGRAM <br />( ACADEMIC )
                           </h4>
                           <span className="price custom-border5">
-                            <span className="currency">RS 15,000 (18% GST)</span>
+                            <span className="currency">RS 5,000 (18% GST)</span>
                           </span>
                         </div>
                       </div>
@@ -247,13 +266,13 @@ function Ielts() {
                     <div className="generic_content active clearfix">
                       <div className="generic_head_price clearfix">
                         <div className="generic_head_content clearfix">
-                          <img src={newImage2} alt="" width={"100%"} />
+                          <img src={newImage3} alt="" width={"100%"} />
                         </div>
 
                         <div className="generic_price_tag clearfix">
                           <h4 className="fw-bold color-price pb-3">
                             {" "}
-                            EXTRENSIVE PROGRAM <br />( ACADEMIC )
+                            EXTENSIVE PROGRAM <br />( ACADEMIC )
                           </h4>
                           <span className="price custom-border5">
                             <span className="currency">RS 10,000 (18% GST)</span>
@@ -263,9 +282,9 @@ function Ielts() {
 
                       <div className="generic_feature_list px-5">
                         <ul>
-                          <li>{"Duration : 16 Sessions"}</li>
+                          <li>{"Duration : 30 Sessions"}</li>
                           <li>{"5 Classes / Week"}</li>
-                          <li>{"15-20 Students per Batch"}</li>
+                          <li>{"5-6 Students per Batch"}</li>
                           <li>{"Excellent Faculty Members"}</li>
                           <li>{"Time Saving Shortcuts & Tricks"}</li>
                           <li>{"Quality Study Material"}</li>
@@ -288,7 +307,7 @@ function Ielts() {
                     <div className="generic_content clearfix">
                       <div className="generic_head_price clearfix">
                         <div className="generic_head_content clearfix">
-                          <img src={newImage3} alt="" width={"100%"} />
+                          <img src={newImage} alt="" width={"100%"} />
                         </div>
 
                         <div className="generic_price_tag clearfix">
@@ -304,9 +323,9 @@ function Ielts() {
 
                       <div className="generic_feature_list px-5">
                         <ul>
-                          <li>{"Duration : 16 Sessions"}</li>
+                          <li>{"Duration : 45 Sessions"}</li>
                           <li>{"5 Classes / Week"}</li>
-                          <li>{"15-20 Students per Batch"}</li>
+                          <li>{"5-6 Students per Batch"}</li>
                           <li>{"Excellent Faculty Members"}</li>
                           <li>{"Time Saving Shortcuts & Tricks"}</li>
                           <li>{"Quality Study Material"}</li>
@@ -752,7 +771,7 @@ function Ielts() {
             <section>
               <div class="container">
                 <div class="row">
-                  <div class="col-md-4">
+                  {/* <div class="col-md-4">
                     <div class="generic_content clearfix">
                       <div class="generic_head_price clearfix">
                         <div class="generic_head_content clearfix">
@@ -853,7 +872,19 @@ function Ielts() {
                         </Link>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
+                  {ieltsSuccess.map(data => (
+        <Card key={data.name} style={{ width: '20rem', flexGrow: 1, margin: '10px', marginRight: '0px', height: 'auto'}}>
+          <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px' }}>
+            <img style={{ borderRadius: '50%', height: '80px', width: '80px' }} src={data.img} alt="" />
+            <Card.Title style={{ fontSize: '17px' }}>{data.name ? data.name : 'Jaswant Singh'}</Card.Title>
+            <Card.Text style={{ fontSize: '13px', textAlign: 'center' }}>
+              {data.desc ? data.desc : 'Megamind has been an indispensable ally throughout my entire journey, from admission through to the visa application process. Their team was consistently accessible, addressing each query with patience and efficiency.'}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      ))}
+                   
                 </div>
               </div>
             </section>

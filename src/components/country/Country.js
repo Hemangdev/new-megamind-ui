@@ -591,6 +591,10 @@ class Country extends React.Component {
                             <Card.Link href="#">Another Link</Card.Link> */}
                           </Card.Body>
                         </Card>
+
+                        {
+                        (result.country !== "Canada" && result.country !== "Germany" && result.country !== "UK") && 
+                        <>
                         <Card style={{ width: '18rem'}}>
                           <Card.Body style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'6px' }}>
                             <img style={{borderRadius:'50%',height:'80px',width:'80px'}} src={result.studentImage_5}/> 
@@ -616,7 +620,8 @@ class Country extends React.Component {
                             {/* <Card.Link href="#">Card Link</Card.Link>
                             <Card.Link href="#">Another Link</Card.Link> */}
                           </Card.Body>
-                        </Card> 
+                        </Card> </>
+        }
                       </div>
                       {/* <button onClick={myFunction} id="myBtn">
                         View More

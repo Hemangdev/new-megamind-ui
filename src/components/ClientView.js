@@ -21,7 +21,7 @@ function ClientView() {
 		console.log(error);
 	  });
 	 }, []);
-	
+	console.log(clientlogos)
 	
     return (
         <>

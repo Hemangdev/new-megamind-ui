@@ -23,7 +23,7 @@ import Blog from "./blog/Blog";
 import Post from "./blog/Post";
 import Alluniversity from "./AllUniversity/Alluniversity";
 import Courses from "./courses/Courses";
-
+import pdf from '../assets/Important-Documents.pdf'
 //Axios for get request
 import { useEffect, useState } from "react";
 import axios from 'axios';
@@ -149,7 +149,7 @@ function Header() {
 
         </Routes>
 
-        <Link to="/" target="_blank">
+        <Link to={pdf} target="_blank">
 
           <Button className="bookVisitbtn2">
 
