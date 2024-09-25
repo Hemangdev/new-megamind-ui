@@ -68,6 +68,7 @@ function Header() {
               <Navbar.Brand href="#">
                 <NavLink className="navbar-brand" id="top" to="./" style={({ isActive }) => ({ color: isActive ? 'black' : 'white' })}>
                   <img src={Megamindlogo} className="" width="170px" alt="Megamind logo" />
+                
                 </NavLink>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

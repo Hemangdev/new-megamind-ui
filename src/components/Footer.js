@@ -88,6 +88,7 @@ function Footer() {
           >
             <Col sm={6} md={4}>
               <div className="">
+              
                 <NavLink
                   className=""
                   to="/"

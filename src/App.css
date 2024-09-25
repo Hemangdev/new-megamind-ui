@@ -1390,6 +1390,16 @@ display: none;
   font-size: 30px;
   margin: 10px;
 }
+.certificateDesign{
+  width: 80px;
+  position: fixed;
+  left: 230px;
+  z-index: 9999999;
+  top: 8px;
+}
+.certificateDesign img{
+  width: 80px !important;
+}
 
 .megaming-pop{
   background: #016bb7 !important;
